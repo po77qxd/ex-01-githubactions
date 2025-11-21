@@ -10,3 +10,6 @@ jobs:
       
       - name: 2) afficher la date
         run: date
+
+      - name: 3) afficher pwd
+        run: pwd
