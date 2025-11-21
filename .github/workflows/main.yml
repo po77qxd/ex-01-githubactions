@@ -19,3 +19,12 @@ jobs:
 
       - name: 4b) lister les fichier
         run: ls -al
+
+      - name: 5a) créer un fichier test
+        run: echo "Fichier créé par GitHub Actions" > testfile.txt
+
+      - name: 5b) vérifier que le fichier existe
+        run: ls -al
+
+      - name: 5c) afficher le contenu du fichier
+        run: cat testfile.txt
