@@ -13,3 +13,9 @@ jobs:
 
       - name: 3) afficher pwd
         run: pwd
+
+      - name: 4a) checkout code
+        uses: actions/checkout@v5
+
+      - name: 4b) lister les fichier
+        run: ls -al
